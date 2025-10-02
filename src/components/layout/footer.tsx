@@ -8,7 +8,18 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 export default function Footer() {
+  const pathname = usePathname();
   const [isAdminVisible, setIsAdminVisible] = useState(true);
+
+  useEffect(() => {
+    // This logic ensures the admin link is not shown on admin pages.
+    if (pathname.startsWith('/admin')) {
+      setIsAdminVisible(false);
+    } else {
+      setIsAdminVisible(true);
+    }
+  }, [pathname]);
+
 
   return (
     <footer className="border-t bg-secondary/30">
