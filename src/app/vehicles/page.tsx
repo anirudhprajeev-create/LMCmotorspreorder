@@ -1,3 +1,4 @@
+
 'use client';
 import { useSearchParams } from 'next/navigation';
 import VehicleCard from '@/components/vehicle-card';
