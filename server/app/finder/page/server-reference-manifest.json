@@ -1,0 +1,27 @@
+{
+  "node": {
+    "40fc48d47f6216e920a0eb9b0402785ad872e214ac": {
+      "workers": {
+        "app/finder/page": {
+          "moduleId": "[project]/.next-internal/server/app/finder/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/ai-powered-vehicle-recommendations.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/finder/page": "action-browser"
+      }
+    },
+    "60b1378917791b3946bf26d792a336723fe287bc1f": {
+      "workers": {
+        "app/finder/page": {
+          "moduleId": "[project]/.next-internal/server/app/finder/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/ai-powered-vehicle-recommendations.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/finder/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
