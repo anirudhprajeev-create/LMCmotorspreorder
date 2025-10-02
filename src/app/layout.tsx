@@ -6,12 +6,11 @@ import { cn } from '@/lib/utils';
 import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
-import { FirebaseErrorListener } from '@/components/FirebaseErrorListener';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'LMC MotorShowcase',
+  title: 'LMC MOTORS | LMC MotorShowcase',
   description: 'Find your next vehicle at LMC Motors',
 };
 
@@ -35,7 +34,6 @@ export default function RootLayout({
         </div>
         <div className="fixed inset-0 z-0 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] bg-no-repeat" />
         <Toaster />
-        <FirebaseErrorListener />
       </body>
     </html>
   );
